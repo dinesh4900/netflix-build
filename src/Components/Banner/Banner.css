@@ -53,6 +53,6 @@
 
 .banner__button:hover{
     color: #000;
-    background-color: yellow;
+    background-color: #e6e6e6;
     transition: all 0.2s;
 }
