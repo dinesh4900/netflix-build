@@ -1,0 +1,34 @@
+.login{
+    position: relative;
+    height: 100%;
+    background: url("https://www.reliancedigital.in/wp-content/uploads/2019/02/netflix_movies_cover.jpg") center no-repeat;
+    background-size: cover;
+
+}
+
+.login__logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.login__button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    
+    border-radius: 3px;
+}
+
+.login__gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+}
