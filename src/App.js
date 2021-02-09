@@ -1,17 +1,8 @@
 import React from 'react';
-
 import './App.css';
-
-
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import HomeScreen from './Screens/HomeScreen/HomeScreen';
 import Login from './Screens/Login/Login';
-
-
 
 function App() {
   const user = null;
@@ -27,7 +18,6 @@ function App() {
           </Route>
         </Switch>
         )}
-        
       </Router>
     </div>
   );
