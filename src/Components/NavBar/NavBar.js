@@ -25,6 +25,7 @@ function NavBar() {
         <div className={`navBar ${show && "navBar__black"}`}> 
            <div className="navBar__contents">
                 <img 
+                    onClick={() => history.push("/")}
                     className="navBar_logo" 
                     src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" 
                     alt="logo" 
