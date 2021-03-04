@@ -26,9 +26,9 @@ function Banner() {
 
     // console.log(movie)
 
-    function truncate(string, n) {
-        return string?.length > n ? string.substr(0, n-1) + "..." : string;
-    }
+    // function truncate(string, n) {
+    //     return string?.length > n ? string.substr(0, n-1) + "..." : string;
+    // }
 
     return(
         <header 
@@ -46,9 +46,9 @@ function Banner() {
                     <button className="banner__button">Play</button>
                     <button className="banner__button">My List</button>
                 </div>
-                <h1 className="banner__description">
+                {/* <h1 className="banner__description">
                     {truncate(movie?.overview, 150)}
-                </h1>
+                </h1> */}
             </div>
 
             <div className="banner__fadeBottom" />
